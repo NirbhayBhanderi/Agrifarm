@@ -23,7 +23,7 @@
   outline: none;
   position: relative;
   overflow: hidden;
-}
+} 
 
 .menu-toggle-btn::before {
   content: '';

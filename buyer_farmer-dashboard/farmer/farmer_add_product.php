@@ -14,7 +14,7 @@ $farmerInfo = $conn->query("SELECT * FROM farmer_users WHERE id=".(int)$fid)->fe
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="farmer_home.css" />
-  <link rel="stylesheet" href="responsive_menu.css" />
+  <link rel="stylesheet" href="../../responsive_menu.css" />
 </head>
 <body>
   <!-- Dark Green Header -->

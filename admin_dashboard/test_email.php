@@ -86,8 +86,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div> -->
                         
                         <div class="mt-3">
-                            <a href="Registration.html" class="btn btn-outline-secondary">
-                                <i class="fas fa-arrow-left"></i> Back to Registration
+                            <a href="admin_dashboard.php" class="btn btn-outline-secondary">
+                                <i class="fas fa-arrow-left"></i> Back to Home
                             </a>
                         </div>
                     </div>

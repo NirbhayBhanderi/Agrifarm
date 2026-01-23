@@ -514,7 +514,7 @@ $recentUsers = $conn->query("
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="home_pages/index.html" class="btn btn-outline-success w-100 mb-2">
+                        <a href="../home_pages/index.html" class="btn btn-outline-success w-100 mb-2">
                             <i class="fas fa-home"></i> View Website
                         </a>
                     </div>

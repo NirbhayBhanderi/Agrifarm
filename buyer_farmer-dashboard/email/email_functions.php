@@ -1,5 +1,8 @@
 <?php
-require_once __DIR__ . '/../../vendor/autoload.php';
+// Autoloader is already loaded via db.php, but include it as backup
+if (!function_exists('ComposerAutoloaderInit2185d2f99bcd56787481d9357a5972d3') && !class_exists('PHPMailer\PHPMailer\PHPMailer')) {
+    require_once __DIR__ . '/../../vendor/autoload.php';
+}
 require_once __DIR__ . '/email_config.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
